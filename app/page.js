@@ -108,10 +108,10 @@ export default function Home() {
         border="2px solid black"
         borderRadius={"10px"}
         p={2}
-        spacing={3}
+        spacing={2}
         bgcolor={"#E6EFE9"}
         boxShadow={20}
-        position={"fixed"}
+        position={"relative"}
       >
         <Stack //this contains the messages
           direction={"column"}
