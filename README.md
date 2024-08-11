@@ -1,4 +1,8 @@
+
+
 AI Basketball Coach Assistant
+
+
 Project Overview
 This project is an AI-powered basketball coach assistant, developed as part of our group project during the Headstarter Fellowship program. As a team of basketball enthusiasts, we wanted to create a tool that could assist players and coaches in improving their skills, developing strategies, and achieving their full potential on the court.
 
