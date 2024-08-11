@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+AI Basketball Coach Assistant
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Project Overview
+This project is an AI-powered basketball coach assistant, developed as part of our group project during the Headstarter Fellowship program. As a team of basketball enthusiasts, we wanted to create a tool that could assist players and coaches in improving their skills, developing strategies, and achieving their full potential on the court.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+The AI Basketball Coach Assistant is designed to provide users with expert advice on various aspects of basketball, including drills, techniques, and game strategies. The assistant is multilingual, capable of responding in different languages based on the user's preference, and it is specifically trained to focus only on basketball-related questions.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Features
+Expert Coaching: Offers tailored advice for players and coaches at different skill levels.
+Multilingual Support: Responds to queries in multiple languages based on user requests.
+Basketball-Focused: Strictly responds to basketball-related inquiries, ensuring a focused coaching experience.
+Scenario Analysis: Provides insights on specific plays and historical examples to enhance understanding.
+Motivation
+Our love for basketball and our passion for technology drove us to create this assistant. We believe that this tool can be an invaluable resource for anyone looking to improve their basketball skills, whether they are beginners or seasoned players.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Usage
+To interact with the AI Basketball Coach Assistant, simply ask basketball-related questions, and the assistant will provide relevant and practical advice. If a non-basketball-related question is asked, the assistant will politely redirect the user back to basketball topics.
