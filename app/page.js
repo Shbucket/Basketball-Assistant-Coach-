@@ -111,6 +111,7 @@ export default function Home() {
         spacing={3}
         bgcolor={"#E6EFE9"}
         boxShadow={20}
+        position={"fixed"}
       >
         <Stack //this contains the messages
           direction={"column"}
@@ -119,7 +120,7 @@ export default function Home() {
           flexGrow={1}
           overflow={"auto"}
           maxHeight="100%"
-          position={"fixed"}
+          
         >
           {messages.map((message, index) => (
             <Box //for the message bubbles and where they are on screen
