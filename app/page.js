@@ -107,6 +107,7 @@ export default function Home() {
         p={2}
         spacing={3}
         bgcolor={"#E6EFE9"}
+        boxShadow={20}
       >
         <Stack //this contains the messages
           direction={"column"}
@@ -132,6 +133,7 @@ export default function Home() {
                 p={3}
                 lineHeight={2}
                 fontSize={'24px'}
+                boxShadow={5}
               >
                 {message.content}
               </Box>
