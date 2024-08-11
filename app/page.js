@@ -2,6 +2,7 @@
 
 import { Box, Button, Stack, TextField } from "@mui/material";
 import { useState, useRef, useEffect } from "react";
+import useMediaQuery from '@mui/material/useMediaQuery';
 
 export default function Home() {
   const [messages, setMessages] = useState([
@@ -88,6 +89,8 @@ export default function Home() {
     scrollToBottom();
   }, [messages]);
 
+
+  const matches = useMediaQuery('(min-width:600px)');
   return (
     <Box //holds everything
       width="100vw"
@@ -132,8 +135,16 @@ export default function Home() {
                 borderRadius={3}
                 p={3}
                 lineHeight={2}
-                fontSize={'24px'}
                 boxShadow={5}
+                sx={{
+                  fontSize:{
+                    xs:15,
+                    sm:15,
+                    md:20,
+                    lg:20,
+                    xl:20,
+                  }
+                }}
               >
                 {message.content}
               </Box>
