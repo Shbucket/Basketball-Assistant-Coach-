@@ -119,6 +119,7 @@ export default function Home() {
           flexGrow={1}
           overflow={"auto"}
           maxHeight="100%"
+          position={"fixed"}
         >
           {messages.map((message, index) => (
             <Box //for the message bubbles and where they are on screen
