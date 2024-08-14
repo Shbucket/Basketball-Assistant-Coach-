@@ -2,7 +2,7 @@ import "./globals.css";
 
 export const metadata = {
   title: 'AI Coach',
-  description: '',
+  description: 'Basketball Coaching built with Llama A.I',
 }
 
 export default function RootLayout({ children }) {
