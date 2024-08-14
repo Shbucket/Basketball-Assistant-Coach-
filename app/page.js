@@ -9,7 +9,7 @@ export default function Home() {
     {
       role: "assistant",
       content:
-        "Hi! I'm a Basketball coaching assistant. How can I help you today?",
+        "Hi! I'm a basketball coaching assistant. How can I help you today?",
     },
   ]);
   const [message, setMessage] = useState("");
